@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 03/01</title>
+    <style>
+        html {
+            font-size: 400%;
+        }
+
+        nav a {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="1">Titulo de Nível 01</h1>
+        <nav>
+            <a href="#1">Titulo de Nível 01</a>
+            <a href="#2">Titulo de Nível 02</a>
+            <a href="#3">Titulo de Nível 03</a>
+            <a href="#4">Titulo de Nível 04</a>
+            <a href="#5">Titulo de Nível 05</a>
+            <a href="#6">Titulo de Nível 06</a>
+            <a href="#texto">Texto</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 id="2">Titulo de Nível 02</h2>
+            <div>
+                <h3 id="3">Titulo de Nível 03</h3>
+                <p id="texto">Texto</p>
+                <h4 id="4">Titulo de Nível 04</h4>
+                <h5 id="5">Titulo de Nível 05</h5>
+                <h6 id="6">Titulo de Nível 06</h6>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <button type="button" id="meuBotao">Ver em escala normal</button>
+        <button type="button" id="meuBotaoDois" disabled>Ver em escala maior</button>
+    </footer>
+    <script>
+        const botao = document.getElementById('meuBotao');
+        const botao2 = document.getElementById('meuBotaoDois');
+
+        botao.addEventListener('click', () => {
+            document.documentElement.style.fontSize = '100%';
+            botao.disabled = true;
+            botao2.disabled = false;
+        })
+
+        botao2.addEventListener('click', () => {
+            document.documentElement.style.fontSize = '400%';
+            botao2.disabled = true;
+            botao.disabled = false;
+        })
+    </script>
+</body>
+
+</html>

@@ -1,64 +1,62 @@
-# 📅 Lista de Desafios — Janeiro (HTML & CSS)
+# 📅 Lista de Desafios — Janeiro (HTML, CSS & JavaScript)
 
 ## 🧱 Fundamentos de HTML
 
 - [x] **Dia 01** — Criar a estrutura básica de um documento HTML semântico
 - [x] **Dia 02** — Organizar um layout simples usando apenas HTML semântico
-- [ ] **Dia 03** — Criar uma página com hierarquia correta de títulos (`h1`–`h6`)
-- [ ] **Dia 04** — Criar a estrutura HTML completa de uma página real (ex: blog ou portal), usando corretamente `header`, `nav`, `main`, `section`, `article`, `aside` e `footer`
+- [x] **Dia 03** — Criar uma página com hierarquia correta de títulos (`h1`–`h6`)
+- [ ] **Dia 04** — Criar a estrutura HTML completa de uma página real (ex: blog ou portal), usando `header`, `nav`, `main`, `section`, `article`, `aside` e `footer`
 
 ## 📐 Flexbox & Layout
 
 - [ ] **Dia 05** — Criar um layout simples usando Flexbox
-- [ ] **Dia 06** — Centralizar elementos de diferentes formas (flex, grid, margin)
-- [ ] **Dia 07** — Criar um layout em duas colunas responsivo
+- [ ] **Dia 06** — Criar três formas diferentes de centralizar um card na tela
+- [ ] **Dia 07** — Criar uma página com layout em duas colunas responsivo
 
 ## 🧩 CSS Grid
 
 - [ ] **Dia 08** — Criar um layout usando CSS Grid
-- [ ] **Dia 09** — Reproduzir um layout simples apenas observando uma imagem
-- [ ] **Dia 10** — Refatorar um layout anterior usando Grid ao invés de Flexbox
+- [ ] **Dia 09** — Criar um layout baseado apenas em uma imagem de referência
+- [ ] **Dia 10** — Criar uma galeria de cards organizada com CSS Grid
 
 ## 🎨 Tipografia & Cores
 
-- [ ] **Dia 11** — Trabalhar tipografia (fontes, tamanhos, espaçamentos)
-- [ ] **Dia 12** — Criar uma paleta de cores e aplicar corretamente
-- [ ] **Dia 13** — Melhorar contraste e legibilidade do layout
+- [ ] **Dia 11** — Criar uma página focada em tipografia (fontes, tamanhos e espaçamentos)
+- [ ] **Dia 12** — Criar um layout do zero usando uma paleta de cores definida
+- [ ] **Dia 13** — Criar uma página priorizando contraste e legibilidade
 
 ## 📱 Responsividade
 
-- [ ] **Dia 14** — Criar um layout responsivo (mobile first)
-- [ ] **Dia 15** — Adaptar um layout desktop para mobile
-- [ ] **Dia 16** — Criar um menu responsivo simples
+- [ ] **Dia 14** — Criar um layout mobile first do zero
+- [ ] **Dia 15** — Criar uma página que funcione bem em mobile, tablet e desktop
+- [ ] **Dia 16** — Criar um menu responsivo funcional (**HTML + CSS + JS**)
 
 ## ♿ Acessibilidade
 
-- [ ] **Dia 17** — Criar um formulário acessível
-- [ ] **Dia 18** — Melhorar acessibilidade (labels, alt, aria básicos)
-- [ ] **Dia 19** — Analisar e corrigir problemas de acessibilidade
+- [ ] **Dia 17** — Criar um formulário acessível do zero
+- [ ] **Dia 18** — Criar uma página seguindo boas práticas de acessibilidade
+- [ ] **Dia 19** — Criar um formulário com validação em JavaScript e mensagens visuais
 
-## ✨ Interações & Componentes
+## ⚙️ JavaScript no Navegador (DOM & Eventos)
 
-- [ ] **Dia 20** — Criar animações simples com CSS
-- [ ] **Dia 21** — Criar efeitos de hover e transições suaves
-- [ ] **Dia 22** — Criar um componente reutilizável apenas com HTML/CSS
+- [ ] **Dia 20** — Criar uma página que manipule elementos do DOM via JavaScript
+- [ ] **Dia 21** — Criar uma interface que responda a eventos do usuário
+- [ ] **Dia 22** — Criar um componente interativo (modal, accordion ou dropdown)
 
 ## 🧪 Prática & Organização
 
-- [ ] **Dia 23** — Clonar visualmente uma landing page simples
-- [ ] **Dia 24** — Clonar a home de um site conhecido (estrutura apenas)
-- [ ] **Dia 25** — Refatorar um layout antigo para melhorar organização
+- [ ] **Dia 23** — Criar uma landing page simples com interações em JavaScript
+- [ ] **Dia 24** — Criar a home de um site conhecido (estrutura + interações)
+- [ ] **Dia 25** — Criar um mini-site com múltiplas seções e JS organizado
 
-## 🧹 Boas práticas de CSS
+## 🧹 Boas Práticas (CSS & JS)
 
-- [ ] **Dia 26** — Organizar CSS seguindo um padrão (BEM ou similar)
-- [ ] **Dia 27** — Separar CSS em arquivos bem definidos
-- [ ] **Dia 28** — Identificar e remover CSS desnecessário
+- [ ] **Dia 26** — Criar um projeto aplicando BEM e separação correta de arquivos
+- [ ] **Dia 27** — Criar uma página usando funções JavaScript reutilizáveis
+- [ ] **Dia 28** — Criar um projeto limpo focado em legibilidade e organização
 
 ## 🚀 Projeto Final
 
-- [ ] **Dia 29** — Criar um pequeno projeto livre com HTML & CSS
-- [ ] **Dia 30** — Melhorar e polir o projeto livre
-- [ ] **Dia 31** — Revisar o mês e documentar aprendizados
-
----
+- [ ] **Dia 29** — Criar um projeto livre completo (HTML + CSS + JS)
+- [ ] **Dia 30** — Criar uma funcionalidade extra inédita para o projeto final
+- [ ] **Dia 31** — Documentar aprendizados e organizar o repositório final
