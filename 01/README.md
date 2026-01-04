@@ -5,7 +5,7 @@
 - [x] **Dia 01** — Criar a estrutura básica de um documento HTML semântico
 - [x] **Dia 02** — Organizar um layout simples usando apenas HTML semântico
 - [x] **Dia 03** — Criar uma página com hierarquia correta de títulos (`h1`–`h6`)
-- [ ] **Dia 04** — Criar a estrutura HTML completa de uma página real (ex: blog ou portal), usando `header`, `nav`, `main`, `section`, `article`, `aside` e `footer`
+- [x] **Dia 04** — Criar a estrutura HTML completa de uma página real (ex: blog ou portal), usando `header`, `nav`, `main`, `section`, `article`, `aside` e `footer`.
 
 ## 📐 Flexbox & Layout
 
@@ -60,3 +60,9 @@
 - [ ] **Dia 29** — Criar um projeto livre completo (HTML + CSS + JS)
 - [ ] **Dia 30** — Criar uma funcionalidade extra inédita para o projeto final
 - [ ] **Dia 31** — Documentar aprendizados e organizar o repositório final
+
+---
+
+Gerados com IA:
+
+- [Estrutura HTML.png](04/image.png)

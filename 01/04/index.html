@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura HTML</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        body {
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 900;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 150px;
+            background-color: #3498db;
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2980b9;
+            height: 60%;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            background-color: #27ae60;
+            flex: 1;
+            align-items: center;
+        }
+
+        .content {
+            display: flex;
+            flex: 1;
+            width: 100%;
+        }
+
+        section,
+        aside {
+            flex: 1;
+            margin-bottom: 10px;
+        }
+
+        section {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            background-color: #e67e22;
+        }
+
+        article {
+            background-color: #c0392b;
+            height: 85%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        aside {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #8e44ad;
+        }
+
+        footer {
+            display: flex;
+            background-color: #7f8c8d;
+            height: 80px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (min-width: 1707px) {
+            article {
+                height: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>header</p>
+        <nav>
+            <p>nav</p>
+        </nav>
+    </header>
+    <main>
+        <p>main</p>
+        <div class="content">
+            <section>
+                <p>section</p>
+                <article>
+                    <p>article</p>
+                </article>
+            </section>
+            <aside>
+                <p>aside</p>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+
+</html>
