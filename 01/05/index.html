@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 05/01</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        header {
+            background-color: #3498db;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header h1 {
+            font-weight: 100;
+            font-size: 2.5rem;
+            color: white;
+            margin: 30px 0 30px 0;
+        }
+
+        nav {
+            display: flex;
+            border-top: white 20px solid;
+            border-bottom: white 20px solid;
+            background-color: #2980b9;
+            width: 100%;
+        }
+
+        nav ul {
+            width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            margin: 0 10px 0 10px;
+            height: 50px;
+        }
+
+        nav ul li {
+            color: white;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            max-width: 90px;
+        }
+
+        nav ul li:hover {
+            background-color: #3498db;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .column {
+            justify-content: space-around;
+            display: flex;
+        }
+
+        .main {
+            font-size: 2rem;
+            margin: 5px 0 10px 10px;
+            color: white;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100dvh;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            background-color: #27ae60;
+            flex: 1;
+            border-bottom: white 20px solid;
+            border-top: white 20px solid
+        }
+
+        section {
+            height: 180px;
+            width: 40%;
+            min-width: 800px;
+            margin-left: 20px;
+            margin-right: 40px;
+            background-color: #e67e22;
+            display: flex;
+            flex-direction: column;
+        }
+
+        section p,
+        aside p {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0 10px 10px;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        article {
+            margin-left: 20px;
+            margin-right: 50px;
+            margin-bottom: 20px;
+            height: 100%;
+            background-color: #c0392b;
+        }
+
+        article p {
+            margin-top: 20px;
+        }
+
+        aside p {
+            margin-top: 40px;
+        }
+
+        aside {
+            width: 30%;
+            background-color: #8e44ad;
+        }
+
+        footer {
+            height: 40px;
+            background-color: #7f8c8d;
+            color: white;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media(max-width: 1400px) {
+            .column {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            aside {
+                margin-top: 20px;
+                width: 50%;
+                height: 10%;
+                min-width: 600px;
+            }
+
+            section {
+                width: 80%;
+                min-width: 970px;
+            }
+        }
+
+        @media(max-width: 1000px) {
+            aside {
+                width: 70%;
+                min-width: unset;
+            }
+
+            section {
+                width: 90%;
+                min-width: unset;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Website Header</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p class="main">main</p>
+        <div class="column">
+            <section>
+                <p>SECTION - Main Content</p>
+                <article>
+                    <p>ARTICLE -<br> Blog Post Title</p>
+                </article>
+            </section>
+            <aside>
+                <p>ASIDE - <br> Sidebar & Ads</p>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>FOOTER - Copyright & Info</p>
+    </footer>
+</body>
+
+</html>

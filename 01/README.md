@@ -9,7 +9,7 @@
 
 ## 📐 Flexbox & Layout
 
-- [ ] **Dia 05** — Criar um layout simples usando Flexbox
+- [x] **Dia 05** — Criar um layout simples usando Flexbox
 - [ ] **Dia 06** — Criar três formas diferentes de centralizar um card na tela
 - [ ] **Dia 07** — Criar uma página com layout em duas colunas responsivo
 
@@ -65,4 +65,5 @@
 
 Gerados com IA:
 
-- [Estrutura HTML.png](04/image.png)
+- [Estrutura HTML (04).png](04/image.png)
+- [Estrutura HTML (05).png](05/image.png)
