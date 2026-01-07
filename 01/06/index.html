@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 06/01</title>
+    <style>
+        #container1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #card1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        #container2 {
+            display: grid;
+            place-items: center;
+        }
+
+        #card2 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+
+        #container3 {
+            width: 100%;
+            display: block;
+        }
+
+        #card3 {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            background-color: black;
+        }
+
+        #card1,
+        #card2,
+        #card3 {
+            color: white;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            height: 100dvh;
+            flex-direction: column;
+            gap: 2px;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="container1">
+            <div id="card1">Flex</div>
+        </div>
+        <div id="container2">
+            <div id="card2">Grid</div>
+        </div>
+        <div id="container3">
+            <div id="card3">Margin Auto</div>
+        </div>
+    </main>
+</body>
+
+</html>

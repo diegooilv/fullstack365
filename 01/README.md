@@ -10,7 +10,7 @@
 ## 📐 Flexbox & Layout
 
 - [x] **Dia 05** — Criar um layout simples usando Flexbox
-- [ ] **Dia 06** — Criar três formas diferentes de centralizar um card na tela
+- [x] **Dia 06** — Criar três formas diferentes de centralizar um card na tela
 - [ ] **Dia 07** — Criar uma página com layout em duas colunas responsivo
 
 ## 🧩 CSS Grid
