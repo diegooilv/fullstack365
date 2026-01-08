@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 07/01</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 100vh;
+    }
+
+    .coluna {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+      color: white;
+    }
+
+    .coluna-esquerda {
+      background-color: #3498db;
+    }
+
+    .coluna-direita {
+      background-color: #e74c3c;
+    }
+
+    @media (max-width: 768px) {
+      .coluna {
+        flex-basis: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="coluna coluna-esquerda">
+      <h2>Coluna 01</h2>
+      <p>Inter</p>
+    </div>
+    <div class="coluna coluna-direita">
+      <h2>Coluna 02</h2>
+      <p>Grêmio</p>
+    </div>
+  </div>
+</body>
+</html>
