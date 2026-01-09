@@ -11,12 +11,12 @@
 
 - [x] **Dia 05** — Criar um layout simples usando Flexbox
 - [x] **Dia 06** — Criar três formas diferentes de centralizar um card na tela
-- [ ] **Dia 07** — Criar uma página com layout em duas colunas responsivo
+- [x] **Dia 07** — Criar uma página com layout em duas colunas responsivo
 
 ## 🧩 CSS Grid
 
-- [ ] **Dia 08** — Criar um layout usando CSS Grid
-- [ ] **Dia 09** — Criar um layout baseado apenas em uma imagem de referência
+- [x] **Dia 08** — Criar um layout usando CSS Grid
+- [x] **Dia 09** — Criar um layout baseado apenas em uma imagem de referência
 - [ ] **Dia 10** — Criar uma galeria de cards organizada com CSS Grid
 
 ## 🎨 Tipografia & Cores
@@ -67,3 +67,6 @@ Gerados com IA:
 
 - [Estrutura HTML (04).png](04/image.png)
 - [Estrutura HTML (05).png](05/image.png)
+
+Conteúdos da Internet:
+- [Estrutura Layout Grid (09)](https://www.tutorialspoint.com/css/css_grid_layout.htm)
