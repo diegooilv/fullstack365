@@ -17,7 +17,7 @@
 
 - [x] **Dia 08** — Criar um layout usando CSS Grid
 - [x] **Dia 09** — Criar um layout baseado apenas em uma imagem de referência
-- [ ] **Dia 10** — Criar uma galeria de cards organizada com CSS Grid
+- [x] **Dia 10** — Criar uma galeria de cards organizada com CSS Grid
 
 ## 🎨 Tipografia & Cores
 

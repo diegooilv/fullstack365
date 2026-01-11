@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 10/01</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: grid;
+            grid-template-areas:
+                "header"
+                "main"
+                "footer";
+            margin: 0;
+            min-width: 100dvw;
+            width: 100%;
+        }
+
+        header {
+            grid-area: header;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            grid-area: main;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            padding: 10px;
+        }
+
+        footer {
+            grid-area: footer;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .card {
+            height: 100px;
+            border-radius: 5px;
+        }
+
+        #card1 {
+            background-color: brown;
+        }
+
+        #card2 {
+            background-color: darkgreen;
+        }
+
+        #card3 {
+            background-color: navy;
+        }
+
+        #card4 {
+            background-color: darkorange;
+        }
+
+        #card5 {
+            background-color: purple;
+        }
+
+        #card6 {
+            background-color: teal;
+        }
+
+        @media(max-width: 600px) {
+            main {
+                place-items: center;
+                grid-template-columns: 1fr;
+                min-width: 100px;
+                width: 100%;
+            }
+
+            .card {
+                width: 80%;
+                min-width: 50px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Desafio 10/01</h1>
+    </header>
+    <main>
+        <div id="card1" class="card"></div>
+        <div id="card2" class="card"></div>
+        <div id="card3" class="card"></div>
+        <div id="card4" class="card"></div>
+        <div id="card5" class="card"></div>
+        <div id="card6" class="card"></div>
+    </main>
+    <footer>Footer</footer>
+</body>
+
+</html>
