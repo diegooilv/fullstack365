@@ -21,7 +21,7 @@
 
 ## 🎨 Tipografia & Cores
 
-- [ ] **Dia 11** — Criar uma página focada em tipografia (fontes, tamanhos e espaçamentos)
+- [x] **Dia 11** — Criar uma página focada em tipografia (fontes, tamanhos e espaçamentos)
 - [ ] **Dia 12** — Criar um layout do zero usando uma paleta de cores definida
 - [ ] **Dia 13** — Criar uma página priorizando contraste e legibilidade
 
@@ -69,4 +69,4 @@ Gerados com IA:
 - [Estrutura HTML (05).png](05/image.png)
 
 Conteúdos da Internet:
-- [Estrutura Layout Grid (09)](https://www.tutorialspoint.com/css/css_grid_layout.htm)
+- [Estrutura Layout Grid (09)](09/image.png) - [Link](https://www.tutorialspoint.com/css/css_grid_layout.htm)
