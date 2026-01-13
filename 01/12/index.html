@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 12/01</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #0047AB;
+        }
+
+        h1,
+        h2 {
+            color: #B22222
+        }
+
+        h1:hover {
+            color: white;
+        }
+
+        p {
+            text-align: start;
+            color: #1A1A1B
+        }
+
+        img {
+            width: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        #secret {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Jujutsu Kaisen</h1>
+    </header>
+    <main>
+        <h2>Satoru Gojo</h2>
+        <p>O Goat.</p>
+        <img src="img/gojo.png" alt="Gojo">
+
+        <h2>Megumi</h2>
+        <p>O sub goat.</p>
+        <img src="img/megumi.png" alt="Megumi">
+    </main>
+    <footer>
+        <p>Jujutsu - O melhor anime.</p>
+    </footer>
+    <div id="secret">
+        <p>Versão atualizada no projeto final c:</p>
+    </div>
+</body>
+<script>
+    document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey && event.key == "s") {
+            event.preventDefault();
+            if (document.getElementById("secret").style.display == "none") {
+                document.getElementById("secret").style.display = "block";
+            } else {
+                document.getElementById("secret").style.display = "none";
+            }
+        }
+    })
+</script>
+
+</html>

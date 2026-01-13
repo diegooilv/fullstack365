@@ -22,7 +22,7 @@
 ## 🎨 Tipografia & Cores
 
 - [x] **Dia 11** — Criar uma página focada em tipografia (fontes, tamanhos e espaçamentos)
-- [ ] **Dia 12** — Criar um layout do zero usando uma paleta de cores definida
+- [x] **Dia 12** — Criar um layout do zero usando uma paleta de cores definida
 - [ ] **Dia 13** — Criar uma página priorizando contraste e legibilidade
 
 ## 📱 Responsividade
