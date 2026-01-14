@@ -27,7 +27,7 @@
 
 ## 📱 Responsividade
 
-- [ ] **Dia 14** — Criar um layout mobile first do zero
+- [x] **Dia 14** — Criar um layout mobile first do zero
 - [ ] **Dia 15** — Criar uma página que funcione bem em mobile, tablet e desktop
 - [ ] **Dia 16** — Criar um menu responsivo funcional (**HTML + CSS + JS**)
 

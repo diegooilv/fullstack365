@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14/01</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        a:hover {
+            color: rgb(218, 94, 94);
+        }
+
+        main {
+
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            place-items: center;
+            gap: 20px;
+        }
+
+        .personagem {
+            background-color: antiquewhite;
+            width: 90%;
+            max-width: 350px;
+            border-radius: 5%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding-bottom: 10px;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid #333;
+        }
+
+        @media(min-width: 720px) {
+            main {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .personagem {
+                width: 100%;
+                max-width: 1000px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Melhores Personagens de Naruto</h1>
+    </header>
+    <main>
+        <section class="personagem">
+            <h2>Kakashi Hatake</h2>
+            <p>O Ninja Copiador</p>
+            <img src="kakashi.png" alt="Kakashi Icon">
+        </section>
+
+        <section class="personagem">
+            <h2>Hashirama Senju</h2>
+            <p>Deus dos Shinobi</p>
+            <img src="hashirama.png" alt="Hashirama Icon">
+        </section>
+
+        <section class="personagem">
+            <h2>Pain</h2>
+            <p>Líder da Akatsuki</p>
+            <img src="pain.png" alt="Pain Icon">
+        </section>
+
+        <section class="personagem">
+            <h2>Sakumo Hatake</h2>
+            <p>A Presa Branca de Konoha</p>
+            <img src="sakumo.png" alt="Sakumo Icon">
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/diegooilv" target="_blank">DiegoOilv</a></p>
+    </footer>
+</body>
+
+</html>
