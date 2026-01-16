@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 15/01</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 1fr;
+            background-color: black;
+            color: white;
+            place-items: center;
+            margin: 0;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: #BC1B1B;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.7rem;
+            color: #A0E8F5;
+        }
+
+        main {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            width: 95%;
+            max-width: 1100px;
+        }
+
+        @media (min-width: 768px) {
+            main {
+                grid-template-columns: 1fr 1fr;
+                padding: 0 40px;
+                width: 80%;
+            }
+        }
+
+        #imagens {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        #elementos,
+        #sharingan,
+        #time {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #elementos {
+            width: 250px;
+        }
+
+        #sharingan {
+            width: 300px;
+        }
+
+        #time {
+            width: 250px;
+        }
+
+        .icons {
+            border-radius: 50%;
+            width: 80px;
+            transition: transform 3s ease;
+        }
+
+        .icons:hover {
+            transform: rotate(360deg);
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 1rem;
+            text-align: justify;
+        }
+
+        p a {
+            text-decoration: none;
+            color: #BC1B1B;
+            font-weight: bold;
+        }
+
+        p a:hover {
+            color: white;
+        }
+
+        .img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            main {
+                border: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Kakashi Hatake</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre</h2>
+            <p>Kakashi Hatake, amplamente conhecido como o Ninja Copiador, é uma das figuras mais emblemáticas e
+                respeitadas
+                de Konohagakure.
+                <br>
+                Filho de Sakumo Hatake, o lendário Canino Branco, Kakashi carregou desde cedo o peso de um
+                prodígio, mas também a sombra da tragédia familiar que moldou sua visão rigorosa sobre as regras ninja.
+                Sua
+                trajetória é marcada por uma evolução profunda: de um jovem pragmático e solitário a um líder empático
+                que
+                valoriza o trabalho em equipe acima de qualquer protocolo.
+                <br>
+                A vida de Kakashi foi definida por perdas sucessivas que testaram sua resiliência. Durante a Terceira
+                Grande
+                Guerra Ninja, ele perdeu seu companheiro Obito Uchiha, de quem recebeu o Sharingam em um momento de
+                sacrifício, e posteriormente sua colega Rin Nohara.
+                <br>
+                Esses eventos o levaram a um período de isolamento e
+                escuridão na ANBU, onde sua eficiência implacável o tornou temido. No entanto, foi como mentor do Time
+                Sete
+                que ele encontrou um novo propósito.
+                <br>
+                Ao treinar Naruto, Sasuke e Sakura, Kakashi não apenas transmitiu
+                técnicas poderosas como o Chidori, mas também o ensinamento fundamental de que "aqueles que abandonam
+                seus
+                amigos são piores que lixo".
+                <br>
+                Sua habilidade em combate é lendária devido à capacidade de copiar mais de mil jutsus, permitindo que
+                ele se
+                adapte a quase qualquer oponente. No ápice de seu poder, ele demonstrou o domínio do Mangekyo Sharingan
+                e do
+                Susanoo, desempenhando um papel crucial na vitória contra Kaguya Otsutsuki.
+                <br>
+                Após a guerra, sua sabedoria e
+                histórico de serviço o levaram ao posto de Sexto Hokage, cargo que ocupou com excelência, modernizando a
+                vila e garantindo um período de paz duradoura antes de passar o chapéu para seu pupilo, Naruto Uzumaki.
+                Mesmo aposentado, Kakashi permanece como um símbolo de redenção e a prova viva de que o verdadeiro poder
+                de
+                um shinobi reside na proteção daqueles que ama.
+            </p>
+            <section id="imagens">
+                <img src="img/icon1.png" alt="Kakashi Icon" class="icons">
+                <img src="img/icon2.png" alt="Kakashi Icon" class="icons">
+                <img src="img/icon3.png" alt="Kakashi Icon" class="icons">
+            </section>
+        </section>
+        <section>
+            <h2>5 Elementos</h2>
+            <p>Embora domine todos os elementos, a afinidade natural de Kakashi é com o Relâmpago. Foi através dessa
+                natureza que ele criou sua técnica de assinatura, o Chidori, e sua evolução posterior, o Raikiri (Corte
+                Relâmpago).
+                <br>
+                Após perder o Sharingan, ele demonstrou sua capacidade de inovação ao desenvolver o Estilo
+                Relâmpago: Eletricidade Roxa, mantendo seu poder ofensivo sem depender da visão aprimorada do olho
+                vermelho.
+                <br>
+                Além do relâmpago, ele utiliza com frequência o Estilo Terra, sendo famoso por sua técnica de Parede de
+                Terra, muitas vezes personalizada com esculturas de cabeças de cães.
+                <br>
+                No Estilo Água, ele provou sua
+                competência ao enfrentar Zabuza Momochi, igualando técnicas de alto nível como o Dragão de Água com
+                perfeição. Embora o Fogo e o Vento sejam menos explorados em seu arsenal ofensivo principal, ele possui
+                o
+                conhecimento necessário para conjurar jutsus dessas naturezas sempre que a estratégia de batalha exige
+                uma
+                vantagem elemental específica sobre o inimigo.
+            </p>
+            <div class="img"><img src="img/elementos kakashi.png" alt="5 elementos kakashi" id="elementos"></div>
+        </section>
+
+        <section>
+            <h2>Sharingan</h2>
+            <p>Diferente dos Uchihas, que despertam o olho através de trauma emocional, Kakashi recebeu seu Sharingan
+                como
+                um presente de despedida de seu melhor amigo, Obito Uchiha, durante a Terceira Grande Guerra Ninja. Por
+                não
+                ser um portador de sangue, Kakashi não conseguia "desativar" o olho, o que o obrigava a mantê-lo coberto
+                com
+                sua bandana para evitar o consumo constante e exaustivo de chakra.
+                <br>
+                Sua fama como o Ninja Copiador veio da habilidade básica do Sharingan de observar o fluxo de chakra e
+                memorizar instantaneamente selos de mão. Kakashi elevou isso ao ápice, antecipando os movimentos dos
+                inimigos e executando os mesmos jutsus simultaneamente a eles, criando a ilusão de que podia prever o
+                futuro. Ao longo de sua carreira, ele copiou mais de mil técnicas, variando entre ninjutsu, taijutsu e
+                genjutsu.
+            </p>
+            <div class="img"><img src="img/kakashi sharingan.png" alt="sharingan kakashi" id="sharingan"></div>
+        </section>
+        <section>
+            <h2>Time 7</h2>
+            <p>Na sua juventude, Kakashi fez parte do time composto por ele, Obito Uchiha e Rin Nohara, liderados pelo
+                futuro Quarto Hokage. Essa formação foi marcada por um contraste de personalidades: Kakashi era o gênio
+                arrogante e focado em regras, enquanto Obito era o jovem emocional que priorizava os laços.
+
+                Foi neste time que a filosofia de vida de Kakashi mudou drasticamente. Durante a missão na Ponte
+                Kannabi, a suposta morte de Obito e o presente do Sharingan transformaram o modo como Kakashi enxergava
+                o mundo. Infelizmente, a dissolução definitiva do grupo veio com a trágica morte de Rin, um evento que
+                deixou cicatrizes profundas e o levou a um isolamento que duraria anos.
+
+                <br>
+                Anos depois, como Jounin, Kakashi assumiu a liderança de um novo Time Sete, formado por Naruto Uzumaki,
+                Sasuke Uchiha e Sakura Haruno. No início, ele era conhecido por reprovar todos os candidatos que não
+                demonstravam espírito de equipe, até que esse trio provou que colocaria a segurança do companheiro acima
+                do teste.
+                <br>
+                Nesta fase, o papel de Kakashi foi muito além do ensino de jutsus:
+
+                Ele tentou evitar que Sasuke seguisse o caminho da vingança, vendo nele o mesmo isolamento que ele
+                próprio sentiu.
+
+                Serviu como a figura equilibrada que mantinha a coesão entre as personalidades explosivas de seus
+                alunos.
+
+                Ensinou a lição máxima herdada de Obito: "Um ninja que quebra as regras é lixo, mas quem abandona seus
+                amigos é pior que lixo".
+                <br>
+                Na Quarta Grande Guerra Ninja, o Time Sete se reuniu sob o olhar orgulhoso de Kakashi. Ver seus alunos
+                superarem os lendários Sannins e trabalharem juntos para selar Kaguya foi a prova final de que ele havia
+                quebrado o ciclo de tragédia de sua juventude. Como mentor, ele não apenas formou guerreiros poderosos,
+                mas garantiu que o espírito de união que ele perdeu no passado fosse preservado no futuro de Konoha.
+            </p>
+            <div class="img"><img src="img/time 7.png" alt="Time 7" id="time"></div>
+        </section>
+    </main>
+    <footer>
+        <p>By: <a href="https://github.com/diegooilv/">Diego</a></p>
+    </footer>
+</body>
+
+</html>
