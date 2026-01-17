@@ -29,7 +29,7 @@
 
 - [x] **Dia 14** — Criar um layout mobile first do zero
 - [x] **Dia 15** — Criar uma página que funcione bem em mobile, tablet e desktop
-- [ ] **Dia 16** — Criar um menu responsivo funcional (**HTML + CSS + JS**)
+- [x] **Dia 16** — Criar um menu responsivo funcional (**HTML + CSS**)
 
 ## ♿ Acessibilidade
 
@@ -40,12 +40,12 @@
 ## ⚙️ JavaScript no Navegador (DOM & Eventos)
 
 - [ ] **Dia 20** — Criar uma página que manipule elementos do DOM via JavaScript
-- [ ] **Dia 21** — Criar uma interface que responda a eventos do usuário
-- [ ] **Dia 22** — Criar um componente interativo (modal, accordion ou dropdown)
+- [ ] **Dia 21** — Criar um menu responsivo funcional (**Agora usando JS**)
+- [ ] **Dia 22** — Criar uma interface que responda a eventos do usuário
+- [ ] **Dia 23** — Criar um componente interativo (modal, accordion ou dropdown)
 
 ## 🧪 Prática & Organização
 
-- [ ] **Dia 23** — Criar uma landing page simples com interações em JavaScript
 - [ ] **Dia 24** — Criar a home de um site conhecido (estrutura + interações)
 - [ ] **Dia 25** — Criar um mini-site com múltiplas seções e JS organizado
 
