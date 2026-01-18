@@ -33,7 +33,7 @@
 
 ## ♿ Acessibilidade
 
-- [ ] **Dia 17** — Criar um formulário acessível do zero
+- [x] **Dia 17** — Criar um formulário acessível do zero
 - [ ] **Dia 18** — Criar uma página seguindo boas práticas de acessibilidade
 - [ ] **Dia 19** — Criar um formulário com validação em JavaScript e mensagens visuais
 

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 17/01</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        .bloco-campo {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        fieldset {
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Formulário de Cadastro</h1>
+
+    <form action="#" method="post">
+
+        <div class="bloco-campo">
+            <label for="nome-usuario">Nome Completo:</label>
+            <input type="text" id="nome-usuario" name="nome_usuario" required aria-required="true">
+        </div>
+
+        <div class="bloco-campo">
+            <label for="email-contato">E-mail Corporativo:</label>
+            <input type="email" id="email-contato" name="email_contato" aria-describedby="ajuda-email">
+            <small id="ajuda-email">Exemplo: nome@empresa.com.br</small>
+        </div>
+
+        <div class="bloco-campo">
+            <label for="setor-trabalho">Setor de Atuação:</label>
+            <select id="setor-trabalho" name="setor">
+                <option value="">Escolha um setor</option>
+                <option value="tecnologia">Tecnologia</option>
+                <option value="vendas">Vendas</option>
+                <option value="rh">Recursos Humanos</option>
+            </select>
+        </div>
+
+        <fieldset>
+            <legend>Turno de Preferência</legend>
+
+            <input type="radio" id="turno-manha" name="turno" value="manha">
+            <label for="turno-manha" style="display:inline;">Manhã</label>
+            <br>
+            <input type="radio" id="turno-tarde" name="turno" value="tarde">
+            <label for="turno-tarde" style="display:inline;">Tarde</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Habilidades Extras</legend>
+
+            <input type="checkbox" id="habilidade-ingles" name="habilidades" value="ingles">
+            <label for="habilidade-ingles" style="display:inline;">Inglês Fluente</label>
+            <br>
+            <input type="checkbox" id="habilidade-carro" name="habilidades" value="carro">
+            <label for="habilidade-carro" style="display:inline;">Possui CNH</label>
+        </fieldset>
+
+        <div class="bloco-campo">
+            <label for="comentarios-adicionais">Observações:</label>
+            <textarea id="comentarios-adicionais" name="comentarios" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Enviar Dados</button>
+
+    </form>
+
+</body>
+
+</html>
