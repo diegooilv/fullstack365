@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 19/01</title>
+
+    <style>
+        input {
+            margin-bottom: 4px;
+            display: block;
+            padding: 6px;
+        }
+
+        .erro {
+            border: 2px solid red;
+        }
+
+        .sucesso {
+            border: 2px solid green;
+        }
+
+        .msg {
+            font-size: 12px;
+            margin-bottom: 6px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="form">
+        <input type="email" id="email" placeholder="Digite seu email">
+        <span class="msg" id="msgEmail"></span>
+
+        <input type="number" id="number" placeholder="Digite seu número">
+        <span class="msg" id="msgNumber"></span>
+
+        <input type="url" id="url" placeholder="Digite seu site">
+        <span class="msg" id="msgUrl"></span>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        const form = document.getElementById("form");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            validarEmail();
+            validarNumero();
+            validarUrl();
+        });
+
+        function validarEmail() {
+            const email = document.getElementById("email");
+            const msg = document.getElementById("msgEmail");
+
+            if (email.value === "") {
+                msg.textContent = "Email obrigatório";
+                email.className = "erro";
+            } else {
+                msg.textContent = "";
+                email.className = "sucesso";
+            }
+        }
+
+        function validarNumero() {
+            const number = document.getElementById("number");
+            const msg = document.getElementById("msgNumber");
+
+            if (number.value === "") {
+                msg.textContent = "Número obrigatório";
+                number.className = "erro";
+            } else {
+                msg.textContent = "";
+                number.className = "sucesso";
+            }
+        }
+
+        function validarUrl() {
+            const url = document.getElementById("url");
+            const msg = document.getElementById("msgUrl");
+
+            if (url.value === "") {
+                msg.textContent = "URL obrigatória";
+                url.className = "erro";
+            } else {
+                msg.textContent = "";
+                url.className = "sucesso";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

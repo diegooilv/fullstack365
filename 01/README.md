@@ -34,8 +34,8 @@
 ## ♿ Acessibilidade
 
 - [x] **Dia 17** — Criar um formulário acessível do zero
-- [ ] **Dia 18** — Criar uma página seguindo boas práticas de acessibilidade
-- [ ] **Dia 19** — Criar um formulário com validação em JavaScript e mensagens visuais
+- [x] **Dia 18** — Criar uma página seguindo boas práticas de acessibilidade
+- [x] **Dia 19** — Criar um formulário com validação em JavaScript e mensagens visuais
 
 ## ⚙️ JavaScript no Navegador (DOM & Eventos)
 
