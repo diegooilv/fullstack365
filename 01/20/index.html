@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 21/01</title>
+</head>
+
+<body>
+    <h1>Manipualação de DOM</h1>
+    <div class="elemento" id="elemento">
+        <p>Elemento</p>
+    </div>
+    <div class="elemento">
+        <p>Elemento 2</p>
+    </div>
+
+    <button id="btn1">
+        Vermelho Elemento 1
+    </button>
+    <button id="btn2">
+        Azul Elemento 2
+    </button>
+    <button id="btn3">
+        Elementos Somem
+    </button>
+
+    <script>
+        const element1 = document.getElementById("elemento");
+        const elementos = document.getElementsByClassName("elemento");
+        const btn1 = document.getElementById("btn1");
+        const btn2 = document.getElementById("btn2");
+        const btn3 = document.getElementById("btn3");
+
+        btn1.addEventListener("click", () => {
+            element1.style.backgroundColor = "red";
+        })
+
+        btn2.addEventListener("click", () => {
+            elementos[1].style.backgroundColor = "blue";
+        })
+
+        btn3.addEventListener("click", () => {
+            for (let i = 0; i < elementos.length; i++) {
+                elementos[i].style.display = "none";
+            }
+        })
+    </script>
+</body>
+
+</html>
