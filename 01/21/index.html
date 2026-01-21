@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 21/01</title>
+    <style>
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        nav,
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul {
+            gap: 40px;
+            font-size: 25px;
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+
+        h1:hover {
+            color: burlywood;
+            cursor: pointer;
+        }
+
+        li a {
+            color: red;
+        }
+
+        li a:hover {
+            color: black;
+        }
+
+        #extra {
+            display: none;
+        }
+
+        #menu-mobile {
+            display: none;
+            width: 80dvw;
+            height: 80dvh;
+            position: absolute;
+            background-color: darkgray;
+            border: 1px solid black;
+            flex-direction: column;
+            gap: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 15px;
+        }
+
+        @media(max-width: 665px) {
+            #lista-pc li {
+                display: none;
+            }
+
+            #extra {
+                display: inline !important;
+
+            }
+
+            #menu-mobile ul {
+                display: flex;
+                flex-direction: column;
+                gap: 20px
+            }
+
+            #extra img {
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Titulo</h1>
+            <ul id="lista-pc">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Endereço</a></li>
+                <li><a href="#">Lista</a></li>
+                <li><a href="#">Jogos</a></li>
+                <li id="extra"><img src="img/burger-menu-svgrepo-com.svg" alt="hamburguer"></li>
+            </ul>
+            <ul id="menu-mobile">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Endereço</a></li>
+                <li><a href="#">Lista</a></li>
+                <li><a href="#">Jogos</a></li>
+                <li><a href="#" id="voltar">Voltar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        const burguer = document.getElementById("extra");
+        const mobile = document.getElementById("menu-mobile");
+        const pc = document.getElementById("lista-pc")
+        const voltar = document.getElementById("voltar");
+
+        burguer.addEventListener("click", () => {
+            if (mobile.style.display === "flex") {
+                mobile.style.display = "none";
+                document.body.style.overflow = "auto";
+            } else {
+                mobile.style.display = "flex";
+                document.body.style.overflow = "hidden";
+            }
+        });
+
+
+        window.addEventListener("popstate", () => {
+            if (mobile.style.display === "flex") {
+                mobile.style.display = "none";
+                pc.style.display = "flex";
+                document.body.style.overflow = "auto";
+            }
+        })
+
+        voltar.addEventListener("click", () => {
+            mobile.style.display = "none";
+            pc.style.display = "flex";
+            document.body.style.overflow = "auto";
+        })
+    </script>
+</body>
+
+</html>
