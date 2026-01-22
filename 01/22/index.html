@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 22/01</title>
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Desafio 22/01</h1>
+    <hr>
+
+    <input type="text" name="campo_numero" id="campo_numero">
+    <button type="button">Enviar</button>
+    <div id="resultado"></div>
+
+    </div>
+
+    <script>
+        const campo = document.getElementById('campo_numero');
+        const resultado = document.getElementById('resultado');
+        const button = document.querySelector('button');
+        button.addEventListener('click', () => {
+            try {
+                const numero = parseInt(campo.value);
+                if (numero % 2 === 0) {
+                    const textoResposta = document.createElement('p');
+
+                    textoResposta.textContent = `${numero} é par.`;
+                    textoResposta.style.color = 'blue';
+                    resultado.appendChild(textoResposta);
+                } else {
+                    const textoResposta = document.createElement('p');
+                    textoResposta.style.color = 'red';
+                    textoResposta.textContent = `${numero} é ímpar.`;
+                    resultado.appendChild(textoResposta);
+                }
+            } catch (error) {
+                const textoResposta = document.createElement('p');
+                textoResposta.textContent = 'Valor inválido. Por favor, insira um número inteiro.';
+                resultado.appendChild(textoResposta);
+            }
+        })
+    </script>
+</body>
+
+</html>
