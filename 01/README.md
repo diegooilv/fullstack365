@@ -40,7 +40,7 @@
 ## ⚙️ JavaScript no Navegador (DOM & Eventos)
 
 - [x] **Dia 20** — Criar uma página que manipule elementos do DOM via JavaScript
-- [ ] **Dia 21** — Criar um menu responsivo funcional (**Agora usando JS**)
+- [x] **Dia 21** — Criar um menu responsivo funcional (**Agora usando JS**)
 - [ ] **Dia 22** — Criar uma interface que responda a eventos do usuário
 - [ ] **Dia 23** — Criar um componente interativo (modal, accordion ou dropdown)
 
