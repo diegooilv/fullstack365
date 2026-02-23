@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 23/01</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .bloco-conteudo {
+            margin-bottom: 40px;
+        }
+
+        .janela-modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-corpo {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .sanfona-conteudo {
+            display: none;
+            margin-top: 10px;
+            background: #f1f1f1;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .menu-suspenso {
+            display: none;
+            background: #eee;
+            padding: 10px;
+            width: 150px;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Desafio 23/01</h1>
+        <div class="bloco-conteudo">
+            <h3>Modal</h3>
+            <button id="abrirModal">Abrir modal</button>
+            <div class="janela-modal" id="modalPrincipal">
+                <div class="modal-corpo">
+                    <p>Isso é um modal.</p>
+                    <button id="fecharModal">Fechar</button>
+                </div>
+            </div>
+        </div>
+        <div class="bloco-conteudo">
+            <h3>Accordion</h3>
+            <button class="botao-sanfona">Abrir conteúdo</button>
+            <div class="sanfona-conteudo">
+                <p>Conteúdo escondido do accordion.</p>
+            </div>
+        </div>
+        <div class="bloco-conteudo">
+            <h3>Dropdown</h3>
+            <button class="botao-menu">Abrir menu</button>
+            <div class="menu-suspenso">
+                <p>Opção A</p>
+                <p>Opção B</p>
+                <p>Opção C</p>
+            </div>
+        </div>
+    </main>
+    <script>
+        const modal = document.getElementById("modalPrincipal");
+        document.getElementById("abrirModal").onclick = () => { modal.style.display = "flex"; };
+        document.getElementById("fecharModal").onclick = () => { modal.style.display = "none"; };
+
+        document.querySelector(".botao-sanfona").onclick = function () {
+            const conteudo = document.querySelector(".sanfona-conteudo");
+            conteudo.style.display = conteudo.style.display === "block" ? "none" : "block";
+        };
+
+        document.querySelector(".botao-menu").onclick = function () {
+            const menu = document.querySelector(".menu-suspenso");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        };
+    </script>
+</body>
+
+</html>

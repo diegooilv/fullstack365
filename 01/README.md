@@ -42,7 +42,7 @@
 - [x] **Dia 20** — Criar uma página que manipule elementos do DOM via JavaScript
 - [x] **Dia 21** — Criar um menu responsivo funcional (**Agora usando JS**)
 - [x] **Dia 22** — Criar uma interface que responda a eventos do usuário
-- [ ] **Dia 23** — Criar um componente interativo (modal, accordion ou dropdown)
+- [x] **Dia 23** — Criar um componente interativo (modal, accordion ou dropdown)
 
 ## 🧪 Prática & Organização
 
