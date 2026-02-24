@@ -46,7 +46,7 @@
 
 ## 🧪 Prática & Organização
 
-- [ ] **Dia 24** — Criar a home de um site conhecido (estrutura + interações)
+- [x] **Dia 24** — Criar a home de um site simples com interação.
 - [ ] **Dia 25** — Criar um mini-site com múltiplas seções e JS organizado
 
 ## 🧹 Boas Práticas (CSS & JS)
