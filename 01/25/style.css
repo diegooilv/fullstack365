@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #e6e6e6;
+}
+
+.menu {
+    background: #2b2b2b;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background: red;
+}
+
+.menu:hover {
+    background: red;
+}
+
+.secao {
+    display: none;
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.secao.ativa {
+    display: block;
+}
+
+h2 {
+    margin-top: 0;
+}
